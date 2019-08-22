@@ -6,7 +6,7 @@
             <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
                 <div class="main-content text-center">
                     <div class="img-wrap text-center">
-                        <img src="<?php echo base_url("public/assets_for_frontend/")?>img/vertical_line.png" alt="">
+                        <img src="<?php echo base_url("public/assets_for_frontend/")?>img/dark_line_short.png" alt="">
                         <div class="divider-35"></div>
                     </div>
 
@@ -21,11 +21,9 @@
                     <!--                           haqqimizda hissesi burda olacaq-->
 
                     <div class="divider-30"></div>
+
                     <div class="img-wrap text-center">
-                        <img src="<?php echo base_url("public/assets_for_frontend/")?>img/vertical_line.png" alt="">
-                    </div>
-                    <div class="img-wrap text-center">
-                        <img src="<?php echo base_url("public/assets_for_frontend/")?>img/vertical_line.png" alt="">
+                        <img src="<?php echo base_url("public/assets_for_frontend/")?>img/dark_line_short.png" alt="">
                     </div>
                     <div class="divider-10 d-none d-xl-block"></div>
                 </div>

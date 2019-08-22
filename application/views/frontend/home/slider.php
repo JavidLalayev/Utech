@@ -31,15 +31,13 @@
                                         </h2>
                                     </div>
                                     <div class="intro_layer" data-animation="fadeIn">
-                                        <h3 class="intro_before_featured_word">
-                                            <span class="color-main2">Web Design</span>,
-                                            <span class="color-main3">Marketing</span> &
-                                            <span class="color-main4">Branding</span>
-                                        </h3>
+<!--                                        <h3 class="intro_before_featured_word">-->
+<!--                                            <span class="color-main2">Web Design</span>,-->
+<!--                                            <span class="color-main3">Marketing</span> &-->
+<!--                                            <span class="color-main4">Branding</span>-->
+<!--                                        </h3>-->
                                     </div>
-                                    <div class="intro_layer page-bottom" data-animation="expandUp">
-                                        <a class="btn btn-maincolor" href="about.html">Get Started</a>
-                                    </div>
+
                                 </div>
                                 <!-- eof .intro_layers -->
                             </div>
@@ -83,9 +81,7 @@
                                     <div class="intro_layer" data-animation="pullDown">
                                         <p class="text-uppercase intro_after_featured_word">Solutions</p>
                                     </div>
-                                    <div class="intro_layer page-bottom" data-animation="expandUp">
-                                        <a class="btn btn-maincolor" href="about.html">Get Started</a>
-                                    </div>
+
                                 </div>
                                 <!-- eof .intro_layers -->
                             </div>
@@ -132,10 +128,7 @@
                                         </h2>
                                     </div>
 
-                                    <div class="intro_layer page-bottom" data-animation="expandUp">
-                                        <a class="btn btn-maincolor" href="about.html">Get Started</a>
-                                        <a class="btn btn-outline-maincolor" href="#">our folio</a>
-                                    </div>
+
                                 </div>
                                 <!-- eof .intro_layers -->
                             </div>

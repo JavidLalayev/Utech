@@ -110,7 +110,7 @@
             <!-- .col-* -->
         </div>
         <div class="pink-line text-center">
-            <img src="<?php echo base_url("public/assets_for_frontend/")?>img/pink_line_big.png" alt="">
+            <img src="<?php echo base_url("public/assets_for_frontend/")?>img/dark_line_short.png" alt="">
         </div>
     </div>
 </section>
