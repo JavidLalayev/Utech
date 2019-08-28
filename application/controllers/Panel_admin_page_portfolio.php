@@ -236,7 +236,7 @@
 
             //      upload edilecek sekil database e yuklenir
             $data  = array(
-                "name"          => ($cond) ? $this->upload->data('file_name') : "default.jpg",
+                "name"          => ($cond) ? $this->upload->data('file_name') : "default.png",
                 "upload_date"        => date("Y/m/d"),
                 "portfolio_id" => $id,
             );
@@ -276,6 +276,7 @@
              $this->session->set_flashdata("alert_danger", "Xəta baş verdi!");
          }
 
+
          $data["gallery"] = $this->Portfolio_model->get_portfolio_gallery(array(
              "portfolio_id" => $portfolio_id,
          ));
@@ -283,6 +284,7 @@
          $data["portfolio"] = $this->Portfolio_model->get_portfolio_list_single(array(
              "id" => $portfolio_id,
          ));
+
 
          $this->load->view("$this->parent_folder/$this->sub_folder/portfolio_gallery/portfolio_list_render_page/portfolio_gallery_table", $data);
 
