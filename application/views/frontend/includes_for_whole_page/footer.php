@@ -5,13 +5,13 @@
             <div class="row">
                 <div class="divider-20 d-none d-xl-block"></div>
                 <div class="col-md-12 mt-4 text-center animate" data-animation="fadeInUp">
-                    <img class="margin-negative" src="<?php echo base_url("public/assets_for_frontend/images/")?>footer_logo.png" alt="">
-                    <div class="widget widget_social_buttons">
-                        <a href="http://www.facebook.com/#" class="fa fa-facebook color-icon" title="facebook"></a>
-                        <a href="http://www.twitter.com/#" class="fa fa-twitter color-icon" title="twitter"></a>
-                        <a href="http://www.plus.google.com/#" class="fa fa-google color-icon" title="google"></a>
-                        <a href="http://www.youtube.com/#" class="fa fa-youtube-play color-icon" title="youtube-play"></a>
-                        <a href="http://www.linkedin.com/#" class="fa fa-linkedin color-icon" title="linkedin"></a>
+                    <img style="margin-top: -60px" width="200px" height="200px" class="margin-negative" src="<?php echo base_url("public/assets_for_frontend/images/")?>logo.png" alt="">
+                    <div style="margin-bottom: 0px" class="widget widget_social_buttons">
+                        <a style="visibility: hidden" href="#" class="fa fa-facebook color-icon" title="facebook"></a>
+                        <a style="visibility: hidden" href="#" class="fa fa-twitter color-icon" title="twitter"></a>
+                        <a style="visibility: hidden" href="#" class="fa fa-google color-icon" title="google"></a>
+                        <a style="visibility: hidden" href="#" class="fa fa-youtube-play color-icon" title="youtube-play"></a>
+                        <a style="visibility: hidden" href="#" class="fa fa-linkedin color-icon" title="linkedin"></a>
                     </div>
                 </div>
             </div>
@@ -23,8 +23,8 @@
         <div class="row align-items-center">
             <div class="divider-20 d-none d-lg-block"></div>
             <div class="col-md-12 text-center">
-                <p>&copy; Copyright
-                    <span class="copyright_year">2018</span> All Rights Reserved</p>
+                <p>&copy; Müəllif Hüquqları
+                    <span class="copyright_year"><?php echo "20" . date("y")?></span> Bütün haqları qorunur</p>
             </div>
             <div class="divider-20 d-none d-lg-block"></div>
         </div>

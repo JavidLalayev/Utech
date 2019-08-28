@@ -13,12 +13,12 @@
                     </div>
                 </div>
                 <h6>
-                    Call Us
+                    Əlaqə Nömrələrimiz
                 </h6>
                 <p>
-                    <strong>New Accounts:</strong> 1-800-123-4567
+                    <strong></strong> +994-55-208-55-19
                     <br>
-                    <strong>Support:</strong> 1-800-123-4569
+                    <strong></strong> +994-50-228-91-19
                 </p>
             </div>
             <div class="col-lg-4 text-center">
@@ -28,11 +28,10 @@
                     </div>
                 </div>
                 <h6>
-                    Write Us
+                    Email
                 </h6>
                 <p>
-                    example@example.com
-                    <br> example@example.com
+                    info@utech.az
                 </p>
             </div>
             <div class="col-lg-4 text-center">
@@ -42,11 +41,11 @@
                     </div>
                 </div>
                 <h6>
-                    Visit Us
+                     Ünvan
                 </h6>
                 <p>
-                    2231 Sycamore Lake Road
-                    <br> Green Bay, WI 54304
+                    Harmony Hotel Baku,
+                    <br>  Xəqani Rüstəmov, Bakı
                 </p>
             </div>
         </div>

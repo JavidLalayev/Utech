@@ -23,7 +23,7 @@
                             <br><br>
 
 
-                            <label>Servisin Basligi</label>
+                            <label>Servisin Başlığı</label>
                             <textarea id="editor1" name="service_title"></textarea>
                             <br><br>
 
@@ -35,11 +35,11 @@
 
 
 
-                                <label>Ustunluklerimiz(Bu Saheni bos buraxa bilersiniz)</label>
+                                <label>Üstünlüklərimiz(Bu Sahəni boş buraxa bilərsiniz)</label>
                                 <textarea id="editor3" name="service_advantages"></textarea>
                                 <br><br>
 
-                            <label>Portfolionun Kateqoriyası(Bu Saheni bos buraxa bilersiniz)</label>
+                            <label>Portfolionun Kateqoriyası(Bu Sahəni boş buraxa bilərsiniz)</label>
                             <select name="service_port" class="form-control">
                                 <option value="">Sec</option>
                                 <?php foreach ($categories as $catg) {?>
@@ -51,7 +51,7 @@
 
                             <br><br>
 
-                            <label for="name">Servisin Sekli</label>
+                            <label for="name">Servisin Şəkli</label>
                             <input id="image" type="file" class="form-control" name="service_img">
                             <br><br>
 

@@ -10,7 +10,7 @@
 							<h1><?php echo $single['service_name'] ?></h1>
 							<ol class="breadcrumb">
 								<li class="breadcrumb-item">
-									<a href="<?php echo base_url('Home') ?>">Home</a>
+									<a href="<?php echo base_url('Home') ?>">Ana Səhifə</a>
 								</li>
 
 								<li class="breadcrumb-item active">
@@ -31,7 +31,7 @@
 					<div class="row">
 						<div class="col-md-4 c-gutter-50 service-widget">
 
-							<h6>Diger Servisler</h6>
+							<h6>Digər Servislər</h6>
 							<ul class="list">
                                 <?php foreach ($services as $service) {?>
 								<li class="text-left">
@@ -42,6 +42,7 @@
 						</div>
 						<div class="col-md-8 ">
 							<img style="
+							            object-fit: cover;
                                        width: 770px;
                                        height: 513.33px;
                                         " src="<?php echo base_url('uploads/services/'.$single['service_img']) ?>" alt="">
@@ -56,7 +57,7 @@
                                     <?php if ($portfolio) { ?>
 									<div class="col-md-12 col-lg-0 left-part">
 										<div class="progress-service">
-											<h6 style="color: darkred">Islerimiz</h6>
+											<h6 style="color: darkred">İşlərimiz</h6>
                                             <?php foreach ($portfolio as $port) {?>
 
 											<p  class="progress-title"><?php echo $port['name'] ?> </p>
@@ -80,7 +81,7 @@
 
                                         <?php if ($single['service_advantages']) {?>
 									<div class="col-md-12 col-lg-6 right-part">
-										<h6 style="color: darkred" >Ustunluklerimiz</h6>
+										<h6 style="color: darkred" >Üstünlüklərimiz</h6>
 									</div>
                                         <?php } ?>
 

@@ -46,12 +46,12 @@
 								</div>
 							</div>
 							<h6>
-								Mobil nömrələrimiz
+                                Əlaqə Nömrələrimiz
 							</h6>
 							<p class="teaser-content">
-								 +994-55-555-55-55
+                                +994-55-208-55-19
 								<br>
-								+994-77-777-77-77
+                                +994-50-228-91-19
 							</p>
 						</div>
 						<div class="col-md-4 text-center">
@@ -61,11 +61,10 @@
 								</div>
 							</div>
 							<h6>
-								E-poçtlarımız
+								Email
 							</h6>
 							<p class="teaser-content">
-								utech@example.com
-								<br> utech@example.com
+                                info@utech.az
 							</p>
 						</div>
 						<div class="col-md-4 text-center">

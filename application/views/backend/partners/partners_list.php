@@ -33,8 +33,8 @@
 
                         <!--                                tablenin basliqi-->
                         <thead>
-                        <th style="width:22%;">emekdasin linki</th>
-                        <th style="width:5%; text-align: center">Servisin sekli</th>
+                        <th style="width:22%;">Əməkdaşın linki</th>
+                        <th style="width:5%; text-align: center">Əməkdaşın şəkli</th>
                         <th style="width:5%; text-align: center">Əməliyatlar</th>
                         </thead>
                         <!--                                tablenin basliqi-->

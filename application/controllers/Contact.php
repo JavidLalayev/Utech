@@ -73,7 +73,7 @@ class Contact extends CI_Controller{
                 $this->email->initialize($config);
                 $this->email->set_newline("\r\n");
                 $this->email->from('testermail0777@gmail.com', $this->input->post('name'));
-                $this->email->to("mutalib0101@gmail.com");
+                $this->email->to("info@utech.az");
                 $this->email->subject(' Utech  ');
                 $this->email->message("$name adlı şəxsdən mesaj:<br> $msg <br> <br> <strong>Şəxslə əlaqə:</strong> <br> $mail <br> $phone") ;
                 $this->email->send();

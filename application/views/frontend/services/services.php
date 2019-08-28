@@ -3,13 +3,13 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12 text-center">
-							<h1>Servislerimiz</h1>
+							<h1>Servislərimiz</h1>
 							<ol class="breadcrumb">
 								<li class="breadcrumb-item">
-									<a href="<?php echo base_url('Home') ?>">Ana Sehife</a>
+									<a href="<?php echo base_url('Home') ?>">Ana Səhifə</a>
 								</li>
 								<li class="breadcrumb-item active">
-									Servislerimiz
+                                    Servislərimiz
 								</li>
 							</ol>
 							<div class="divider-15 d-none d-xl-block"></div>
@@ -28,7 +28,9 @@
 
 							<div class="vertical-item text-center">
 								<div class="item-media">
-									<img style="max-width: 500px;
+									<img style="
+									            object-fit: cover;
+									            max-width: 500px;
                                                 width: 320px;
                                                 height: 180px"  src="<?php echo base_url('uploads/services/'.$service['service_img']) ?>" alt="">
 								</div>

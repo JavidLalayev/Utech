@@ -13,7 +13,7 @@
                         <div class="row">
 
                             <form action="<?php echo base_url("utech_admin_panel_portfolio_category_add_act")?>" method="post">
-                                <label for="name">Kateqoriyanın Adı</label>
+                                <label for="name">Kateqoriyanın Adı <span style="color: red"> [Adı Yazarkən sözlərin arasında tire ("-") işarəsindən isdifadə edin əks halda saytin frontunda işləməyəcək!]</span> <span style="color: green">Məsələn: Veb-Dizayn</span></label>
                                 <input id="name" type="text" class="form-control" name="category_name">
                                 <br>
                                 <button type="submit" class="btn btn-primary">Əlavə Et</button>

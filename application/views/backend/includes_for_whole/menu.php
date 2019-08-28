@@ -1,9 +1,7 @@
 <!--        HEAD NAVBAR                -->
 <div class="navbar-inner">
     <div class="header-seperation">
-        <a href="index-2.html">
-            <img src="<?php echo base_url("public/assets_for_backend")?>/img/logo.png" class="logo" alt="" data-src="<?php echo base_url("public/assets_for_backend")?>/img/logo.png" data-src-retina="assets/img/logo2x.png" width="106" height="21" />
-        </a>
+            <h3 style="color: white; margin-left: 15px">Utech Admin Panel</h3>
 
 
     </div>
@@ -66,7 +64,7 @@
                         <i class="material-icons">web</i>
 
 <!--                        Portfel-->
-                        <span class="title">Portfel</span>
+                        <span class="title">Portfolio</span>
 
                         <span class="selected"></span>
                     </a>
@@ -77,7 +75,7 @@
                         <i class="material-icons">work</i>
 
                         <!--                        Portfel-->
-                        <span class="title">Services</span>
+                        <span class="title">Servislər</span>
 
                         <span class="selected"></span>
                     </a>
@@ -86,8 +84,8 @@
 
                 <li class="open active">
                     <a href="<?php echo base_url("utech_admin_panel_partners")?>">
-                        <i class="material-icons">email</i>
-                        <span class="title">Əməkdasliq</span>
+                        <i class="fa fa-chain"></i>
+                        <span class="title">Əməkdaşlıq</span>
                         <span class=" badge badge-disable pull-right "></span>
                     </a>
                 </li>
@@ -103,7 +101,7 @@
                 <li class="open active">
                     <a href="<?php echo base_url("utech_admin_panel_admin_update")?>">
                         <i class="material-icons">update</i>
-                        <span class="title">Admin Yeniləməsi</span>
+                        <span class="title">Admin Yenilənməsi</span>
                         <span class=" badge badge-disable pull-right "></span>
                     </a>
                 </li>
@@ -122,9 +120,3 @@
         </div>
     </div>
 
-    <!--        LOGOUT BUTTON-->
-    <div class="footer-widget">
-        <div class="pull-right">
-            <a href="lockscreen.html"><i class="material-icons">power_settings_new</i></a></div>
-    </div>
-    <!--        LOGOUT BUTTON-->

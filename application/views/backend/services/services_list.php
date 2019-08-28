@@ -33,8 +33,8 @@
                         <!--                                tablenin basliqi-->
                         <thead>
                         <th style="width:22%;">Servisin Adı</th>
-                        <th style="width:9%; text-align: center">Servisin Basligi</th>
-                        <th style="width:5%; text-align: center">Servisin sekli</th>
+                        <th style="width:9%; text-align: center">Servisin Başlığı</th>
+                        <th style="width:5%; text-align: center">Servisin Şəkli</th>
                         <th style="width:5%; text-align: center">Əməliyatlar</th>
                         </thead>
                         <!--                                tablenin basliqi-->

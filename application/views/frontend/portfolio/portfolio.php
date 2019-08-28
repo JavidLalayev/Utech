@@ -8,7 +8,7 @@
 							<h1>Portfel</h1>
 							<ol class="breadcrumb">
 								<li class="breadcrumb-item">
-									<a href="<?php echo base_url() ?>">Ana Sehife</a>
+									<a href="<?php echo base_url() ?>">Ana Səhifə</a>
 								</li>
 								<li class="breadcrumb-item active">
 									Portfel

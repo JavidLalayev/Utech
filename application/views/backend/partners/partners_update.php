@@ -7,7 +7,7 @@
 
 
     <div class="content">
-        <h1 class="c_title">Yeni Servis</h1>
+        <h1 class="c_title">Əməkdaşlıq yeniləməsi</h1>
         <div class="grid simple ">
             <div class="row" style="margin-top: 50px">
                 <div class="grid-body no-border c_grid_padding">
@@ -20,7 +20,7 @@
                             <br>
 
 
-                            <label for="name">Əməkdaşlıq Sekli</label>
+                            <label for="name">Əməkdaşlıq Şəkli</label>
                             <input id="image" type="file" class="form-control" name="img">
                             <br><br>
 

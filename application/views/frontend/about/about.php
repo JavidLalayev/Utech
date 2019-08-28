@@ -5,7 +5,7 @@
 							<h1>Haqqımızda</h1>
 							<ol class="breadcrumb">
 								<li class="breadcrumb-item">
-									<a href="<?php echo base_url('Home') ?>">Home</a>
+									<a href="<?php echo base_url('Home') ?>">Ana Səhifə</a>
 								</li>
 <!--								<li class="breadcrumb-item">-->
 <!--									<a href="#">Pages</a>-->

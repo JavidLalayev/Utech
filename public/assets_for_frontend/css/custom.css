@@ -96,3 +96,277 @@ h2 {
     -webkit-transition: transform .5s ease, opacity .7s ease;
     transition: transform .5s ease, opacity .7s ease;
 }
+
+
+ /*loader*/
+ .ca_fade-in{
+     width: 100%;
+     height: 100%;
+ }
+
+.ca_container {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.ca_common {
+    height: 5vw;
+    max-height: 100%;
+    overflow: auto;
+    width: 2vw;
+    margin: auto;
+    max-width: 100%;
+    position: absolute;
+    background-color: ;
+    border-radius: 0vw 10vw 0vw 10vw;
+    box-shadow: inset 0vw 0vw 0vw .1vw #004db7, 0vw 0vw 1.5vw 0vw #60afef;
+}
+
+.ca_one {
+    transform: rotate(45deg);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 7.5vw;
+}
+
+.ca_two {
+    transform: rotate(90deg);
+    left: 5.5vw;
+    right: 0;
+    top: 0;
+    bottom: 5.5vw;
+}
+
+.ca_three {
+    transform: rotate(135deg);
+    left: 7.5vw;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.ca_four {
+    transform: rotate(180deg);
+    left: 5.5vw;
+    right: 0;
+    top: 5.5vw;
+    bottom: 0;
+}
+
+.ca_five {
+    transform: rotate(225deg);
+    left: 0;
+    right: 0;
+    top: 7.5vw;
+    bottom: 0;
+}
+
+.ca_six {
+    transform: rotate(270deg);
+    left: 0;
+    right: 5.5vw;
+    top: 5.5vw;
+    bottom: 0;
+}
+
+.ca_seven {
+    transform: rotate(315deg);
+    left: 0;
+    right: 7.5vw;
+    top: 0;
+    bottom: 0;
+}
+
+.ca_eight {
+    transform: rotate(360deg);
+    left: 0;
+    right: 5.5vw;
+    top: 0;
+    bottom: 5.5vw;
+}
+
+.bar {
+    width: 12vw;
+    height: .25vw;
+    left: 0;
+    right: 0;
+    top: 16vw;
+    bottom: 0;
+    margin: auto;
+    overflow: hidden;
+    background: #60afef;
+}
+
+.progress {
+    width: 12vw;
+    height: .5vw;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    overflow: hidden;
+    background: #004db7;
+}
+
+.ca_one {
+    animation: ca_one 1s ease infinite;
+}
+
+@keyframes ca_one {
+    0%,
+    100% {}
+    50% {
+        background: ;
+        box-shadow: inset 0vw 0vw 0vw .1vw #004db7, 0vw 0vw 1.5vw 0vw #00afef;
+    }
+}
+
+.ca_two {
+    animation: ca_two 1s .125s ease infinite;
+}
+
+@keyframes ca_two {
+    0%,
+    100% {}
+    50% {
+        background: ;
+        box-shadow: inset 0vw 0vw 0vw .1vw #004db7, 0vw 0vw 1.5vw 0vw #00afef;
+    }
+}
+
+.ca_three {
+    animation: ca_three 1s .25s ease infinite;
+}
+
+@keyframes ca_three {
+    0%,
+    100% {}
+    50% {
+        background: ;
+        box-shadow: inset 0vw 0vw 0vw .1vw #00afef, 0vw 0vw 1.5vw 0vw #60afef;
+    }
+}
+
+.ca_four {
+    animation: ca_four 1s .375s ease infinite;
+}
+
+@keyframes ca_four {
+    0%,
+    100% {}
+    50% {
+        background: ;
+        box-shadow: inset 0vw 0vw 0vw .1vw #004db7, 0vw 0vw 1.5vw 0vw rgb(96, 175, 239);
+    }
+}
+
+.ca_five {
+    animation: ca_five 1s .5s ease infinite;
+}
+
+@keyframes ca_five {
+    0%,
+    100% {}
+    50% {
+        background: ;
+        box-shadow: inset 0vw 0vw 0vw .1vw #004db7, 0vw 0vw 1.5vw 0vw #60afef;
+    }
+}
+
+.ca_six {
+    animation: ca_six 1s .625s ease infinite;
+}
+
+@keyframes ca_six {
+    0%,
+    100% {}
+    50% {
+        background: ;
+        box-shadow: inset 0vw 0vw 0vw .1vw #00afef, 0vw 0vw 1.5vw 0vw #00afef;
+    }
+}
+
+.ca_seven {
+    animation: ca_seven 1s .750s ease infinite;
+}
+
+@keyframes ca_seven {
+    0%,
+    100% {}
+    50% {
+        background: ;
+        box-shadow: inset 0vw 0vw 0vw .1vw #00afef, 0vw 0vw 1.5vw 0vw #004db7;
+    }
+}
+
+.ca_eight {
+    animation: ca_eight 1s .875s ease infinite;
+}
+
+@keyframes ca_eight {
+    0%,
+    100% {}
+    50% {
+        background: ;
+        box-shadow: inset 0vw 0vw 0vw .1vw #60afef, 0vw 0vw 1.5vw 0vw #00afef;
+    }
+}
+
+.ca_container {
+    animation: ca_container 5s linear infinite;
+}
+
+@keyframes ca_container {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+
+@keyframes ca_fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.ca_out {
+    animation: out 2s 15s ease;
+    -moz-animation: out 2s 15s ease;
+    /* Firefox */
+    -webkit-animation: out 2s 15s ease;
+    /* Safari and Chrome */
+    -o-animation: out 2s 15s ease;
+    /* Opera */
+
+    width: 100%;
+    height: 100%;
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*-ms-transform: translateY(-50%);*/
+    /*transform: translateY(-50%);*/
+
+}
+
+@keyframes out {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+

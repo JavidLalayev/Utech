@@ -5,13 +5,13 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12 text-center">
-							<h1>Emekdaslar</h1>
+							<h1>Əməkdaşlar</h1>
 							<ol class="breadcrumb">
 								<li class="breadcrumb-item">
-									<a href="<?php echo base_url('home') ?>">Ana Sehife</a>
+									<a href="<?php echo base_url('home') ?>">Ana Səhifə</a>
 								</li>
 								<li class="breadcrumb-item active">
-									Emekdaslar
+									Əməkdaşlar
 								</li>
 							</ol>
 							<div class="divider-15 d-none d-xl-block"></div>
